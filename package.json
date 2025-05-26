@@ -1,0 +1,26 @@
+{
+  "name": "midu-links",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:styles": "pnpx @tailwindcss/cli -i ./input.css -o ./assets/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "@midudev/tailwind-animations": "^0.2.0",
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midudev/curso-tailwind-abril-2025.git"
+  },
+  "bugs": {
+    "url": "https://github.com/midudev/curso-tailwind-abril-2025/issues"
+  },
+  "homepage": "https://github.com/midudev/curso-tailwind-abril-2025#readme",
+  "description": ""
+}
